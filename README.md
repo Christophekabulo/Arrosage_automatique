@@ -11,6 +11,7 @@ jjjjjjjjjjjj
 ### DHT 11
 
 La dihydrotestostérone (DHT) est l'hormone qui possède la plus forte activité androgénique. Elle est produite exclusivement par conversion périphérique de la testostérone sous l'action de la 5-alpha réductase.
+
 La DHT plasmatique augmente dans la plupart des cas d'hyperandrogénie chez la femme, qu'elle soit d'origine ovarienne ou surrénalienne. En outre, certaines formes d'hirsutisme idiopathique sont rattachées à une augmentation de l'activité 5-alpha réductase tissulaire avec conversion accrue de la testostérone en dihydrotestostérone, dont la concentration circulante est augmentée.
 
 
