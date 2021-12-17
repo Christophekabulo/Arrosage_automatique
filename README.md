@@ -59,3 +59,57 @@ La DHT plasmatique augmente dans la plupart des cas d'hyperandrogénie chez la f
 ### algorigramme
 
 
+### code MVT
+
+Display_Temp(Temperature);
+	  Display_Rh(Humidity);
+
+	  if (Humidity<25 && Temperature>25) {
+
+
+	 	  /********************** DHT11 *********************/
+		  HAL_GPIO_WritePin(GPIOA,GPIO_PIN_0, GPIO_PIN_SET);
+		  HAL_GPIO_WritePin(GPIOA,GPIO_PIN_6, GPIO_PIN_RESET);
+		  HAL_Delay(500);
+	      DHT11_Start();
+	 	  Presence = DHT11_Check_Response();
+	 	  Rh_byte1 = DHT11_Read ();
+	 	  Rh_byte2 = DHT11_Read ();
+	 	  Temp_byte1 = DHT11_Read ();
+	 	  Temp_byte2 = DHT11_Read ();
+	 	  SUM = DHT11_Read();
+
+
+	 	  TEMP = Temp_byte1;
+	 	  RH = Rh_byte1;
+
+	 	  Temperature = (float) TEMP;
+	 	  Humidity = (float) RH;
+
+	 	  HAL_Delay (1000);
+
+
+
+	      /* USER CODE END WHILE */
+
+	      /* USER CODE BEGIN 3 */
+	  	i++;
+	  	sprintf(yazi,"%d",i);
+	  	lcd_print(1, 1, yazi);
+	  	HAL_Delay(30);
+
+	}else{
+
+ 	  	HAL_GPIO_WritePin(GPIOA,GPIO_PIN_0, GPIO_PIN_RESET);
+ 	  	HAL_GPIO_WritePin(GPIOA,GPIO_PIN_6, GPIO_PIN_SET);
+ 	  	HAL_Delay(500);
+
+ 	  	i--;
+		sprintf(yazi,"%d",i);
+		lcd_print(1, 1, yazi);
+		HAL_Delay(30);
+
+
+	}
+
+
