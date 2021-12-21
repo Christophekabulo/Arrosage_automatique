@@ -115,5 +115,10 @@ Display_Temp(Temperature);
 
 
 ```
+![detecteht](https://user-images.githubusercontent.com/92753979/146954747-8f2c29a8-b25b-44ff-8cd5-0def76ac9177.PNG)
+
+
+![leadrougesalume](https://user-images.githubusercontent.com/92753979/146954791-e1d8d51c-de85-4736-a101-0df0183d1d1a.PNG)
+
 
 
