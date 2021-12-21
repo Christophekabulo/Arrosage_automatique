@@ -57,6 +57,7 @@ La DHT plasmatique augmente dans la plupart des cas d'hyperandrogénie chez la f
 
 ### algorigramme
 
+![ARGORI](https://user-images.githubusercontent.com/92753979/146957834-ff59c95c-902d-4394-876a-54ffc91ca05c.png)
 
 ### code MVT
 
