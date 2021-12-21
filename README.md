@@ -36,7 +36,6 @@ Eclipse un ensemble de sous-projets de développements logiciels, de la fondatio
 
 3.proteusà
 
-![Capture_simmulation_proteus](https://user-images.githubusercontent.com/92784792/138357766-753fee87-4fcf-4120-afef-7c3001da1019.PNG)
 
 4. carte STM32F4
 
